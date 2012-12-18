@@ -1,6 +1,5 @@
 {
   "name": "steroids-simulators",
-  "preferGlobal": "true",
   "version": "0.0.1",
   "license": "MIT",
   "author": "AppGyver <contact@appgyver.com>",
@@ -23,20 +22,14 @@
     "ios-sim": "./bin/ios-sim"
   },
 
-  "scripts": {
-  },
-
-  "keywords": [
-  ],
-
   "repository": {
     "type": "git",
     "url": "git://github.com/AppGyver/Steroids-Simulators.git"
   },
 
   "engines": {
-    "node": ">=0.8.14",
-    "npm":  ">=1.1.65"
+    "node": "*",
+    "npm":  "*"
   },
 
   "dependencies": {
