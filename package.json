@@ -1,6 +1,6 @@
 {
   "name": "steroids-simulators",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "AppGyver <contact@appgyver.com>",
   "description": "AppGyver Steroids simulator related binaries",
@@ -18,9 +18,12 @@
       "email": "juha.suuraho@appgyver.com"
     }
   ],
+
   "bin": {
     "ios-sim": "./bin/ios-sim"
   },
+
+  "main": "./lib/steroids-simulators",
 
   "repository": {
     "type": "git",
