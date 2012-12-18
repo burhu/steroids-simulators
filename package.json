@@ -1,0 +1,48 @@
+{
+  "name": "steroids-simulators",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "AppGyver <contact@appgyver.com>",
+  "description": "AppGyver Steroids simulator related binaries",
+  "contributors": [
+    {
+      "name": "Matti Paksula",
+      "email": "matti.paksula@appgyver.com"
+    },
+    {
+      "name": "Jesse Ikonen",
+      "email": "jesse.ikonen@appgyver.com"
+    },
+    {
+      "name": "Juha Suuraho",
+      "email": "juha.suuraho@appgyver.com"
+    }
+  ],
+  "bin": {
+    "ios-sim": "./bin/ios-sim"
+  },
+
+  "scripts": {
+  },
+
+  "keywords": [
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AppGyver/Steroids-Simulators.git"
+  },
+
+  "engines": {
+    "node": ">=0.8.14",
+    "npm":  ">=1.1.65"
+  },
+
+  "dependencies": {
+  },
+
+  "devDependencies": {
+  }
+
+}
