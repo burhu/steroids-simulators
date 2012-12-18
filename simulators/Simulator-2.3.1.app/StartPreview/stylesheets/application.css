@@ -1,0 +1,276 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    width:100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+div.main {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+div.top {
+    height: 70px;
+    background-color: white;
+    bottom: 0px;
+    text-align: center;
+}
+
+div.metal {
+    height: 380px;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+    background-size: 4px 4px;
+}
+
+div.scan {
+    padding-top: 45px;
+    text-align: center;
+}
+
+div.scan_image {
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/scan.png);
+    background-repeat: no-repeat;
+    background-size: 170px 170px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.scan {
+    width: 170px;
+    height: 170px;
+}
+
+img.reopen {
+     width:136px;
+     height:45px;
+}
+
+div.reload_reopen {
+    padding-top: 30px;
+    height: 45px;
+    text-align: center;
+    float: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 288px;
+}
+
+div.reopen_image {
+    float: left;
+    width:136px;
+    height:45px;
+    background-image: url(../images/reopen.png);
+    background-repeat: no-repeat;
+    background-size: 136px 45px;
+}
+
+div.reopen_image_hover {
+    background-image: url(../images/reopen_hover.png);
+}
+
+div.reload_image {
+    float: right;
+    width:136px;
+    height:45px;
+    background-image: url(../images/redownload.png);
+    background-repeat: no-repeat;
+    background-size: 136px 45px;
+}
+
+div.reload_image_hover {
+    background-image: url(../images/redownload_hover.png);
+}
+
+div.scan_image_hover {
+    background-image: url(../images/scan_hover.png);
+}
+
+div.hidden_preload {
+    display: none;
+    background-image: url(../images/scan_hover.png), url(../images/reopen_hover.png), url(../images/redownload_hover.png);
+}
+
+div.progressbar {
+    display: none;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    height: 25px;
+    width: 288px;
+    background-size: 100%;
+    background-image: url(../images/progressbg.png);
+    background-repeat: no-repeat;
+}
+
+div#progressrouter {
+    width: 270px;
+    height: 7px;
+    padding-top: 8px;
+    margin-left: 9px;
+}
+
+#progressinner {
+    background: white;
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 9px;
+}
+
+div.logo {
+    width: 170px;
+    height: 55px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 170px 55px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#downloads {
+    display: none;
+}
+
+div#spinner {
+    position: relative;
+    top: 15px;
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+div#cancel_download {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/cancel.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    position: relative;
+    top: -18px;
+    margin-left: 255px;
+}
+
+/* iPad portrait */
+@media only screen and (min-device-width: 768px) and (orientation:portrait) {
+
+    div.logo {
+        width: 283px;
+        height: 89px;
+        background-image: url(../images/logo_ipad.png);
+        background-repeat: no-repeat;
+        background-size: 283px 89px;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.top {
+        height: 200px;
+        background-color: white;
+        bottom: 0px;
+        text-align: center;
+    }
+
+    div.metal {
+        height: 596px;
+    }
+
+    div.scan {
+        padding-top: 145px;
+    }
+
+    div.progressbar {
+        margin-top: 60px;
+    }
+
+}
+
+
+
+/* Disabler div, shown after client mode change */
+
+div#disabler {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1000;
+  background-color: #000;
+  opacity: .9;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: left;
+  color: #FFF;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+div#disabler p {
+  padding: 0 10%;
+}
+
+div#disabler h1 {
+  padding: 0 10%;
+  font-weight:400;
+}
+
+div#disabler code {
+  font-weight:700;
+}
+
+div.back_to_scanner {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 45px;
+    text-align: center;
+    float: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 137px;
+    background-image: url(../images/backtoscanner.png);
+    background-repeat: no-repeat;
+    background-size: 137px 45px;
+}
+
+div.back_to_scanner:hover {
+    background-image: url(../images/backtoscanner_hover.png);
+}
+
+div.reloading {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: 14px;
+  width: 213px;
+  background-image: url(../images/reloading.png);
+  background-repeat: no-repeat;
+  background-size: 213px 14px;
+}
+
+div.background_spinner {
+  height: 20px;
+  padding-bottom: 20px;
+}
+
+div.hidden_background_preload {
+    display: none;
+    background-image: url(../images/backtoscanner_hover.png);
+}
+
