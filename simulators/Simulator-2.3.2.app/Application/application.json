@@ -1,0 +1,35 @@
+{
+    "id": 308,
+    "name": "AGDM 2000",
+    "authentication": {
+        "title": "Log in recommended",
+        "link_types": [],
+        "message": "You should login to use Facebook. You can also login later for commenting etc.",
+        "cancel_button_text": "Back"
+    },
+    "configuration": {
+        "request_user_location": "false",
+        "fullscreen": "true",
+        "fullscreen_start_url": "index.html",
+        "splashscreen_duration_in_seconds": 0,
+        "client_version": "normal",
+        "navigation_bar_style": "default",
+        "status_bar_style": "default",
+        "initial_eval_js_string": ""
+    },
+    "update": {
+        "minimum_required_version": "2.0",
+        "update_recommendation_url": "http://store.apple.com/",
+        "title": "Update found",
+        "text": "You should update",
+        "current_version": "2.0"
+    },
+    "archives": [{
+                 "url": "https://appgyver-anka-uploads-production.s3.amazonaws.com/uploads/framework/zip/9/framework-0.8.6.zip"
+                 }],
+    "files": [{
+              "path": "application_configurations.json",
+              "url": "https://appgyver-anka-uploads-production.s3.amazonaws.com/uploads/application/configuration_cache/308/application_configurations.json"
+              }],
+    "bottom_bars": []
+}
