@@ -1,7 +1,0 @@
-{
-  "name": "startpreviuw",
-  "version": "0.0.1-jesse",
-  "dependencies": {
-    "steroids-js": "0.7.x"
-  }
-}
