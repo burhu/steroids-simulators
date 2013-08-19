@@ -1,7 +1,4 @@
 Steroids-Simulators
 ===================
 
-
-## publishing
-
-see bin/publish.sh
+This repository is a dependency for [Steroids npm](//github.com/AppGyver/steroids).
